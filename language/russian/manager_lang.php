@@ -1,0 +1,33 @@
+<?
+$lang['manager_ban_page_title']='Список забаненых';
+$lang['manager_ban_gmname']='Ник Гейм Мастера';
+$lang['manager_ban_short_reason']='Короткое описание причины';
+$lang['manager_ban_full_reason']='Полное описание причины';
+$lang['manager_ban_link']='Ссылка на материал (видео\скриншот)';
+$lang['manager_ban_user_name']='Ник персонажа нарушещего правила';
+$lang['manager_ban_user_login']='Логин персонажа';
+$lang['manager_ban_user_date']='Срок бана';
+$lang['manager_ban_kind']='Тип Бана';
+$lang['manager_ban_permaban']='Пермабан';
+$lang['manager_ban_ref']='Номер блокировки';
+$lang['manager_blockbtn']='Блокировать';
+$lang['manager_search_sys']='Система поиска';
+$lang['manager_sea_name']='поиск по нику';
+$lang['manager_main']='Главная страница менеджера';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+$lang['manager_']='';
+?>

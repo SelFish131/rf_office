@@ -1,0 +1,11 @@
+<?
+/*
+=== ÝÒÎ ÒÎËÜÊÎ ÏÐÈÌÅÐ! ÑÑÛËÊÓ ÓÊÀÆÈÒÅ ÍÈÆÅ Â ÊÀÂÛ×ÊÀÕ ===
+ïóòü ê êàáèíåòó, íàïðèìåð http://127.0.0.1/
+=== ÝÒÎ ÒÎËÜÊÎ ÏÐÈÌÅÐ! ÑÑÛËÊÓ ÓÊÀÆÈÒÅ ÍÈÆÅ Â ÊÀÂÛ×ÊÀÕ ===
+*/
+
+$config['base_url']	= "/gamers";
+
+/* End of file base_url.php*/
+/* Location: ./system/application/config/base_url.php */

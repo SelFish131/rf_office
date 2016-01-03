@@ -131,6 +131,7 @@ if(count($stop)==0)
 
 		$register			=	query_config('query_register');
 		$this->MSSQL->query($register,array($login,$password,$email));
+        var_dump($this);
         $result = $this->MSSQL->query("SELECT SCOPE_IDENTITY() AS [SCOPE_IDENTITY]");
         var_dump($result);
         exit();

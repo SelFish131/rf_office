@@ -128,8 +128,13 @@ if(count($stop)==0)
     {
 //        регистрация 
 		$this->config->load('core', FALSE, TRUE);
+
 		$register			=	query_config('query_register');
 		$this->MSSQL->query($register,array($login,$password,$email));
+        $result = $this->MSSQL("SELECT SCOPE_IDENTITY() AS [SCOPE_IDENTITY]");
+        var_dump($result);
+        exit();
+
 	    $this->config->load('rf_settings', FALSE, TRUE);
          if($id<>'') bonus_add($id,$this->config->item('REF_BONUS'));
          elseif ($part<>'') bonus_add(GetASerialFromName($part),$this->config->item('REF_BONUS'));
